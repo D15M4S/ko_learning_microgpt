@@ -21,6 +21,8 @@ env/
 .vscode/
 .idea/
 
+# Data files
+input.txt
+
 # Claude Code (local settings만 제외)
 .claude/settings.local.json
-.claude/memory/

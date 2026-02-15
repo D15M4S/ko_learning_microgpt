@@ -20,39 +20,42 @@ ko_review_microgpt/
 │
 ├── 01_tokenizer/               # String → Token conversion
 │   ├── notes.md
-│   └── exercises/
+│   ├── deepdive_BPE.md
+│   └── test/
+│       ├── test.md
+│       └── answer.md
 │
 ├── 02_embedding/               # Token/Position embeddings
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 03_attention/               # Multi-head self-attention
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 04_mlp/                     # Feed-forward networks
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 05_output/                  # Linear projection, Softmax
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 06_loss/                    # Cross-entropy loss calculation
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 07_backprop/                # Autograd, backward pass
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 ├── 08_optimizer/               # Adam optimizer
 │   ├── notes.md
-│   └── exercises/
+│   └── test/
 │
 └── 09_full_pipeline/           # Complete training & inference
     ├── notes.md
-    └── exercises/
+    └── test/
 ```
 
 ## Agent Behavior
@@ -75,5 +78,6 @@ ko_review_microgpt/
 
 ## Notes
 - Each unit's `notes.md` contains: concept explanation, code walkthrough, key insights
-- Each unit's `exercises/` contains: practice problems, experiments, variations
+- Each unit's `test/` contains: AI Engineer interview questions (test.md + answer.md)
+- Unit 01 has `deepdive_BPE.md` for advanced BPE algorithm study
 - Detailed project goals and learning objectives → see README.md
